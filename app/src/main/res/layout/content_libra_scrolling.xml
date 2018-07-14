@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LibraScrollingActivity"
+    tools:showIn="@layout/activity_libra_scrolling"
+    android:background="@color/BackgroundDark"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Libra"
+            android:textColor="@color/textWhite"
+            android:textSize="22sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="(23 de Septiembre a 22 de Octubre)  
+Elemento Aire"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Eres dulce y seductor. Te gusta rodearte de belleza y armonía, tu realización personal pasa por el contacto y la forma de relacionarte con los demás. Inquieto y curioso por naturaleza, tiendes a sentirte a menudo frustrado e insatisfecho cuando crees o presientes que las cosas no van por el camino que tú quisieras. Te comprometes difícilmente, pero cuando lo haces tú compromiso es firme. "
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Personalidad. "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Eres agradable, dulce y algo inconstante. Tu atractivo y tu sociabilidad te ayudan a avanzar por tu vida relacionándote satisfactoriamente con tu entorno, lo que repercute de forma favorable en todas tus facetas vitales. Buscas el equilibrio en todo lo que emprendes. En sociedad, te muestras diplomático y das lo mejor de ti, te gusta ser un buen anfitrión."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Mente "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Sueles cultivar tu mente durante toda tu vida, aprendiendo algo nuevo cada día que pueda ayudarte a desarrollar tus aptitudes intelectuales y a ampliar tus conocimientos. Eres un conversador agradable, con una visión interesante de las cosas, a menudo innovador a la hora de plantear ciertas cuestiones. Un poco estratega dentro de tu vida personal. "
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Amor"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Regido por la mismísima Venus, planeta de la armonía y del amor, no podía ser de otra manera: eres una persona sensual, atractiva y carismática, tienes un don especial para atraer a los demás sin apenas proponértelo. Sin embargo, eres muy selectivo en tus amistades y, por ende, con tus amores, y te cuesta comprometerte a largo plazo. Cuando lo haces, cuando abres tu corazón a alguien especial, eres un compañero atento, agradable, divertido y sorprendente en muchos sentidos. Una caja de sorpresa por descubrir."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Trabajo y Dinero"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Tiendes a desempeñar funciones en las que tu gran sentido de la estética y de la belleza en general puedan brillar. Te gusta destacar en tu trabajo, y generalmente tu buen hacer y tu astucia  te permiten hacerlo. Te inclinas por profesiones en las que el contacto con los demás sea parte primordial de tu trabajo, y sabes aprovechar al máximo tus recursos dialécticos y sociales para obtener el mejor rendimiento. Eres un competidor tenaz y tu paciencia suele llevarte al éxito, a medio y largo plazo, con buenas expectativas a nivel monetario."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LeoScrollingActivity"
+    tools:showIn="@layout/activity_leo_scrolling"
+    android:background="@color/BackgroundDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Leo"
+            android:textColor="@color/textWhite"
+            android:textSize="22sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="(23 de Julio a 22 de Agosto)  
+Elemento Fuego"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Leo personifica al León. Es fuerte, admirado por todos y su poder es el motor de su vida. A menudo caes en la superficialidad y la ostentación, aunque también hay que decir que eres mucho más que la imagen que los demás se hacen de ti. Eres muy sobreprotector con los seres queridos, y sacas las garras cuando ellos están en peligro o más necesiten de ti."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Personalidad. "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Eres voluntario, fuerte y audaz, brillas con luz propia y difícilmente consiguen hacerte sombra si te propones superarte. La exuberancia es otro rasgo muy importante de tu carácter. Eres dominante y creativo, el enfoque que das a las cosas que emprendes te hace distinto a los demás. Así mismo, tu inteligencia y “olfato” te permiten deslumbrar en todos los terrenos."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Mente "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Sueles caracterizarte por tu agilidad mental, no necesitas darle muchas vueltas a las cosas para poder entenderlas. De igual modo, complementas tu gran potencial intelectual con tu instinto, sobre todo en el ámbito profesional, y muchas veces tus juicios son acertados y certeros."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Amor"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Cuando tu corazón está en juego, tienes una inventiva excepcional para atraer a la persona de tu deseo. Multiplicas tus encantos y proyectas tu gran poder de seducción con el fin de seducir a tu entorno. En pareja, eres atento y generoso, pero también tienes cierta tendencia a sufrir celos y a mostrarte exigente. Sueles rodearte de muchos amigos, y muchas veces eres el centro de las reuniones. Te gusta que te alaben y que te muestren su admiración por ti."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Trabajo y Dinero"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Eres muy ambicioso y un gran trabajador, sólo te permites descansar y tomarte un respiro bien merecido cuando estás seguro de que controlas la situación desde todos los ángulos, en caso contrario trabajas sin cesar hasta lograr que todo quede como tú quieras. El dinero es muy importante para ti, y más aún el éxito, que consideras un elemento clave en tu afán de protagonismo y de demostrar a los demás tu valía. Es por eso por lo que sueles alardear de tus logros y rodearte de lujo, eres excesivo y expansivo, y quieres que los demás sepan que eres un poderoso ganador."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cl.evilgenius.horoscope">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Horoscope_Activity" />
+        <activity
+            android:name=".AriesScrollingActivity"
+            android:label="Aries"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TaurussScrollingActivity"
+            android:label="Tauro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GeminiScrollingActivity"
+            android:label="Géminis "
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PiscesScrollingActivity"
+            android:label="Piscis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AquariusScrollingActivity"
+            android:label="Acuario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CapricornScrollingActivity"
+            android:label="Capricornio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScorpioScrollingActivity"
+            android:label="Escorpio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SagittariusScrollingActivity"
+            android:label="Sagitario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LibraScrollingActivity"
+            android:label="Libra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VirgoScrollingActivity"
+            android:label="Virgo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LeoScrollingActivity"
+            android:label="Leo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CancerScrollingActivity"
+            android:label="Cancer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

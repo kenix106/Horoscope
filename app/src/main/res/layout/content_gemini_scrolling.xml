@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".GeminiScrollingActivity"
+    tools:showIn="@layout/activity_gemini_scrolling"
+    android:background="@color/BackgroundDark">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Géminis "
+        android:textColor="@color/textWhite"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="(21 de Mayo a 20 de Junio)
+Elemento Aire"
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="El signo de Géminis es un signo dual, lo que te permite adaptarte fácilmente a cualquier situación. Sensible e intuitivo, te gusta aprender cosas nuevas y rodearte de gente dispuesta a compartir tus ideales. Tu entorno lo creas por primeras impresiones, cuesta mucho que des segundas oportunidades. "
+        android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Personalidad. "
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+      android:text="Eres una persona abierta, inquieta, te gusta hacer varias cosas a la vez y aprender de todo un poco. Eres versátil y tu dualidad te permite adaptarte a todas las situaciones como un camaleón. También eres emprendedor, sueles lanzarte, sin pensártelo dos veces, en aquellos asuntos que, por una razón u otra, te parecen interesantes, ya sea para ampliar tus conocimientos o favorecer tus expectativas vitales, en ese sentido tiendes a la impaciencia pues no te gusta esperar para conseguir tus objetivos."
+        android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Mente "
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Tu mente es ágil, eres curioso y atrevido, lo que te lleva a adquirir conocimientos a lo largo de tu vida. Te gusta indagar, comunicar, explorar, y tu inteligencia abierta te ayuda en ese sentido. Tienes excelentes disposiciones para la comunicación compartir experiencias."
+        android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Amor"
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+      android:text="Te muestras también impulsivo e impaciente en las cuestiones de corazón, te gusta vivir y amar deprisa, sin demoras ni esperas. La persona que quiera compartir tu vida deberá compartir también tu gusto por la aventura y por el movimiento constante, en caso contrario tendrían pocos puntos en común y esto podría distanciarlos. Y aunque puedas parecer algo tosco o brusco, cuando quieres a alguien eres capaz de ser dulce y atento, este es otra virtud de tu dualidad."
+        android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Trabajo y Dinero"
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+      android:text="Por tu planeta ascendente, te gusta hacer negocios y cualquier trabajo relacionado con el comercio. Tienes un don para trabajar con tus manos, tu facilidad oratoria puede llevarte a desempeñar puestos de responsabilidad. Eres buen trabajador, cumples tus expectativas y esto repercute en una estabilidad emocional, económica y familiar. "
+        android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

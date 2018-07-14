@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PiscesScrollingActivity"
+    tools:showIn="@layout/activity_pisces_scrolling"
+    android:background="@color/BackgroundDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Piscis "
+        android:textColor="@color/textWhite"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="(20 de Febrero a 20 de Marzo)
+Elemento Agua"
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Eres un signo dual, difícil de describir, pues tu imaginación y mundo interior no tienen límites. Tú mismo puedes tener en ocasiones dificultad para determinar dónde termina lo real y dónde empieza lo imaginario. Tu gran sensibilidad e intuición incrementan tu receptividad a aquellas cosas difícilmente perceptibles para los signos más terrenales, por así decirlo, como los signos de tierra. Pero también eres más vulnerable y frágil que los demás signos. A razón a ello, no te gusta estar mal con la gente y haces lo imposible por agradarle a todos. Es bueno porque evitas mala influencias."
+        android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Personalidad. "
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+       android:text="Te entregas mucho más a los demás de los que ellos a ti. Tu emotividad te lleva a sufrir en exceso el rechazo de tu entorno y te pasas con muchas dificultades para superar tu dolor. Tu intuición ocupa un lugar destacado en tu vida y en la forma en la que la vives, digamos que vives condicionado por tus sensaciones y tus sentimientos. También tiendes a dejarte influenciar por los demás, no tienes criterios fijos que defender. Eres uno de los signos más débiles de carácter, pero muy entregado a tus sentimientos. Tienes pasión para hacer las cosas."
+        android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Mente "
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+       android:text="Eres imaginativo, perceptivo, sin mucho apego a la realidad material. A veces, tus pensamientos son confusos, llegando incluso a ser incoherentes, un hecho propiciado por tu gran capacidad inventiva y la realidad fantasiosa que puedes llegar a construirte. Te basas en tu intuición para explicar muchos actos, ya sea de la gente que te rodea, como de ti mismo. Pero debes acordarte que la intuición viene por experiencia, y la experiencia se construye."
+        android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Amor"
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Sea cual sea tu afecto, te muestras leal y generoso. Siempre estás dispuesto para ayudar a la gente a tu alrededor, para escuchar sus problemas y consolarles en la medida de tus posibilidades. En el terreno amoroso, te gustan las relaciones estables, por así decirlo las necesitas para estabilizarte emocionalmente, eres fiel y posesivo, con una gran capacidad de sacrificio."
+         android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Trabajo y Dinero"
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+      android:text="En el trabajo, no eres competitivo, por el contrario, ayudas a tus colegas a alcanzar sus metas sin interés, lo que puede ser beneficioso laboralmente para ellos, puede perjudicarte a ti profesionalmente, también es ventajoso si encuentras una alianza respetuosa a tus aportes.
+Te desencantas por actividades en las que puedas dar rienda suelta a tu sensibilidad y amor por la expresión artística en todas sus facetas. Te cuesta culminar tus propósitos, sueles ser inconstante, sobre todo en aquellos períodos en los que te sientes más decaído, y sueles anteponer tus emociones a tus necesidades más vitales. Con todo, tu talento y buena disposición para el arte en general pueden llevarte al éxito si persigues tus sueños en ese sentido con constancia y perseverancia. Y por supuesto, un proyecto a la vez, inspiraran alegría al verlos realizados."
+        android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+        />
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+
+    >
+    <android.support.v7.widget.AppCompatImageView
+        android:src="@mipmap/mi_cara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textWhite"
+        android:text="@string/horoscopo"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/txt_zodiacTESTpage1"
+        android:textColor="@color/textWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/txtViewDay"
+        android:layout_gravity="center"
+        android:text="@string/introduzca_su_dia_de_nacimiento"
+        android:textColor="@color/secondaryText"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/DatePick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha de Nacimiento"
+        android:background="@color/secondaryText"
+        android:textColor="@color/BackgroundDark"
+        android:layout_gravity="bottom"
+        tools:ignore="HardcodedText,OnClick"
+        android:gravity="center"
+
+        android:onClick="datePicker"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ShowDate"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/textWhite"
+        />
+
+
+</LinearLayout>

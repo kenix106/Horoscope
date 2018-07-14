@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AriesScrollingActivity"
+    tools:showIn="@layout/activity_aries_scrolling"
+    android:background="@color/BackgroundDark"
+    tools:ignore="PrivateResource">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Aries "
+        android:textColor="@color/textWhite"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="(21 de Marzo a 20 de Abril)
+Elemento Fuego"
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Aries es el primer signo del zodíaco y simboliza el principio. Es activo, creativo, aventurero e impulsivo, con reacciones que pueden llegar a ser algo bruscas. Podríamos decir que tu lema es “atreverse ahora, arrepentirse después”. También suele mostrar impaciencia cuando las cosas no van con lo planeado, según él, deberían ir. Vive la vida a mil por hora.
+Pero siempre orgulloso de sus actos, mismo si son dañinos para los demás."
+        android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Personalidad. "
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Eres una persona valiente y comprometida con lo que haces. Crees en tus ideales y pones todos los recursos a tu alcance para lograrlos. Necesitas moverte constantemente, para ti la inercia y la pereza son muestras de debilidad y te hacen retroceder en las metas que te has planteado. Te abres a cada nueva experiencia y te lanzas a la aventura, para ti cada ocasión es una oportunidad por descubrir y conseguir. Te gusta la independencia, te gusta sentirte libre para actuar como quieres en cada momento. Tu energía y empeño suelen abrirte puertas a lo largo de tu vida, oportunidades que sabes aprovechar como pocos. "
+        android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Mente "
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Eres inteligente y, lo que puede resultar más interesante en relación con tu carácter, eres lúcido en tu forma de plantearte los nuevos retos a alcanzar, y te sirves de tu mente aguda para encararlos de la manera que te resulte más provechosa.
+A veces su superioridad mental hace caer en la arrogancia o egocentrismo, hay que trabajar bien la humildad ya que los Aries humildes son los que más metas cumplen tanto en lo económico como en lo personal."
+        android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Amor"
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Te muestras igual de fogoso, impaciente e impulsivo en tus relaciones afectivas. Para ti, tiene que ser todo y ahora, en caso contrario la relación que te ofrecen no te convence.
+Para atraer a un Aries, hay que ser al menos tan intrépido, imaginativo y pasional como este signo o corres el riesgo de aburrirle y verle pasar a otra cosa."
+        android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Trabajo y Dinero"
+        android:textColor="@color/textWhite"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="No hace falta decirte que eres un líder nato y que, sea cual sea la profesión que desempeñes, pondrás en ella tanta pasión y compromiso que destacarás entre todos. Tu agilidad mental, tu agudeza y tu rapidez en la ejecución te llevan a saber controlar cualquier situación del mejor modo, lo que hace que a menudo la gente confíe en ti, e incluso se respalde, para resolver cualquier conflicto o situación de crisis en el trabajo. Sueles alcanzar, en la mitad de tu vida, un gran éxito, lo que conlleva cierta estabilidad monetaria que, aunque no sea éste tu objetivo principal pues antepones el brillo social y el reconocimiento a los aspectos económicos. Aunque en el fondo sepas que el segundo es resultado del primero.
+Sueles seguir avanzando y no mirar atrás tus logros, si tiendes a volver a vivir un pasado, cierra los ojos y continúa tu camino."
+        android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

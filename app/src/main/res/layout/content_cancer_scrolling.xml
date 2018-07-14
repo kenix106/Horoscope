@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CancerScrollingActivity"
+    tools:showIn="@layout/activity_cancer_scrolling"
+    android:background="@color/BackgroundDark"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Cancer"
+            android:textColor="@color/textWhite"
+            android:textSize="22sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="(21 de Junio a 22 de Julio)
+Elemento Agua"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Eres una persona muy sensible. A imagen del cangrejo, posees un caparazón duro para protegerte del exterior. Tu interior es frágil, tiendes a pasar a lo largo de tu vida por altibajos emocionales, y sueles retrotraerte a tu infancia en busca de respuestas sobre tu “yo” actual. En ocasiones te enfrentas a la vida con cierto miedo hacia el futuro."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Personalidad. "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Eres más emocional que racional, y muchas veces vives apegado a tu pasado. Tus recuerdos y tu infancia influyen mucho en tu personalidad adulta, tiendes al aislamiento en ocasiones en busca de cierta paz y equilibrio interiores. Cuando te sientes en confianza, te abres lo suficiente como para mostrarte compasivo, generoso y bastante expansivo, si bien en tu vida pasas por muchos momentos de decaimiento y melancolía."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Mente "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Eres muy intuitivo, te vales más de tu corazón que de tu intelecto. Tus emociones pueden llegar a condicionar tus actos. Aunque tu mente te lleve por una que otra derrota, tenderás a seguir tu instinto por encima de todo. A menudo tu entorno piensa que eres un tanto irracional y fantasioso, pero esa es la esencia de un cáncer. "
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Amor"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Tu naturaleza receptiva y amable te lleva a hacerte de amigos fácilmente, a condición de que te encuentres receptivo en ese momento para conocer a alguien. La gente que te rodea es muy importante para ti y juega en tu vida un papel decisivo en tu estabilidad emocional. Aceptas con un dolor exagerado el rechazo y te cuesta mucho tiempo superarlo. En todas tus relaciones, eres leal, entregado y muy protector. Esto se debe a tu conexión sentimental de tu signo. Pero cuando logras superarte aprendes muy bien de tus errores, y evitar volver a repetirlos. En la familia y parejas eres el más querido y el que quiere más, puesto que irradias bondad y amor."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Trabajo y Dinero"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="El trabajo no ocupa un lugar primordial en tu vida. Ya que lo material no es algo muy importante. No obstante, desempeñarás tu cometido con paciencia y firmeza, pues en el fondo persigues que alguien reconozca tu esfuerzo, aunque sea en el terreno laboral. Además, no otorgas importancia al dinero pues para ti no es sinónimo de seguridad y estabilidad. Sino que hagas un trabajo bien hecho y que lo reconozcan te das por pagado."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

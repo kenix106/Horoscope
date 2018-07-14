@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AquariusScrollingActivity"
+    tools:showIn="@layout/activity_aquarius_scrolling"
+    android:background="@color/BackgroundDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Acuario"
+            android:textColor="@color/textWhite"
+            android:textSize="22sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="(21 de Enero a 19 de Febrero)
+Elemento Aire"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Eres un ser social y siempre sueles rodearte de amigos y de gente conocida. Eres idealista, expansivo, abierto a nuevas ideas, con un gran sentido de la justicia y de la tolerancia, te comprometes en ese sentido con tal de ayudar en hacer de tu mundo un lugar mejor. Simbolizas la esperanza y los sueños, la espiritualidad aplicada a la vida real."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Personalidad. "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Eres original y te caracterizas por hacer las cosas de forma distinta a los demás. Tu anticonformismo es evidente en todos tus actos, pones empeño en poner de manifiesto tu independencia en cualquier circunstancia. Eres tolerante y compasivo, tu empatía y tu sensibilidad hacen que seas receptivo a los problemas ajenos, y tienes el don de encontrar la solución a la mayoría de los problemas. Eres amable, simpático y cordial, y te recalcas sobre tu gran círculo de amistades. "
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Mente "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Te caracterizas por una gran vivacidad intelectual, y también espiritual. Como buen signo de aire, eres un intelectual profundo, creativo; Crees en la posibilidad de los cambios sociales con la fuerza de tu voluntad y tu lucha encarnecida en ese sentido. Eres innovador y aplicas tus grandes conocimientos, en muchos temas en general, al servicio de tus ideales transformadores."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Amor"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Utópico e idealista, crees en la bondad de la gente, aunque pronto los acontecimientos más desastrosos del mundo en general se encargan de desmoronar la idea soñadora que te haces de los demás. Tu espíritu original y generoso te garantiza tener muchas amistades en los círculos más variados. En tus relaciones más personales, en las que expones tu corazón y tus sentimientos más profundos, buscarás compartir con el ser querido tus expectativas vitales, y corres el riesgo de sentirte muy decepcionado y defraudado si la otra persona no se entrega como tú."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Trabajo y Dinero"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Tienes un método de trabajo particular y único, que en el fondo tú sólo entiendes pero que suele darte muy buenos resultados. Pero esta metodología particular suele crear conflictos con tu entorno laboral, por lo que en numerosas ocasiones prefieres cambiarte por profesiones liberales, en las que, siendo tú tu propio jefe, tienes total libertad de movimientos. Si no tenemos en cuenta tu inconstancia (tiendes a emprender varios proyectos a la vez, que no siempre culminas, “el que mucho abarca poco aprieta”), tus aptitudes son buenas para aportarte éxito, profesional y monetario, en tu vida."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

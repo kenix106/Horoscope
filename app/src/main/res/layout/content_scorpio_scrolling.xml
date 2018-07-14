@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScorpioScrollingActivity"
+    tools:showIn="@layout/activity_scorpio_scrolling"
+    android:background="@color/BackgroundDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Escorpio "
+            android:textColor="@color/textWhite"
+            android:textSize="22sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="(23 de Octubre a 22 de Noviembre)
+Elemento Agua"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="El Escorpio es el signo del instinto, de la potencia, de la seguridad, así como del mundo interior, de los fantasmas que cada uno alberga en su interior. Eres una persona extrema en todo lo que emprendes, te haces notar sin quererlo, pues tu paso firme, seguro y fuerte se hace sentir. No pasas desapercibido."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Personalidad. "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Tu carácter es bastante complejo: tus pulsiones te dominan a menudo, sueles tener dificultades para controlar tus emociones más profundas. Para ti las cosas son como tú las ves y ni siquiera te planteas por un instante que puedan ser de otro modo. Eres un pasional de la vida, tu planeta regente Marte te dota de fuerza y vitalidad para avanzar con pie firme sin retroceder ni cuestionarte jamás. Eres un gran rival y tus enemigos saben de lo que puedes ser capaz si te sientes apresado y en peligro; tu ataque puede ser decisivo, certero y mortal."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Mente "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Demasiado auto exigente, que a veces lleva a represiones personales y testarudez hacia lo inspirado.
+Eres dueño de tus pensamientos y nadie puede penetrar tu mente, aún menos manipularla. Al contrario, tu discernimiento y tu agudeza mental, unido a tu poder intuitivo y tu empatía pueden llevarte a ejercer cierto control sobre los pensamientos y los actos de los demás… Queda por saber qué uso haces de ese don."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Amor"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Tu seguridad en ti mismo, la fuerza vital que emanas sin ni siquiera percatarte de ello, te hacen carismático y atractivo para tu entorno. Eres un ser pasional, generoso y dulce, aunque sólo lo demuestras en tu círculo más íntimo y con la o las personas que consideras que son merecedoras de tu cariño. Cuando te sientes frustrado o decepcionado, puedes mostrarte muy desagradable, e incluso vengativo y tiránico en tu aspecto más negativo, con la persona que te ha traicionado."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Trabajo y Dinero"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Eres trabajador, constante y precavido por naturaleza, sabes aprovechar al máximo tus cualidades para conseguir tus objetivos y ahorrar del mejor modo tus energías para sacarlas cuando realmente te sea necesario. Con estas disposiciones, es fácil que prosperes positivamente a lo largo de tu vida, y sueles alcanzar el éxito en tu profesión a una edad razonablemente temprana. En tu trabajo, pones todos tus recursos al servicio de la consecución de tus metas, sin cargar con prejuicios morales ni de cualquier índole."
+             android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

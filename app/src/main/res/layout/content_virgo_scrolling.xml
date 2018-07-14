@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".VirgoScrollingActivity"
+    tools:showIn="@layout/activity_virgo_scrolling"
+    android:background="@color/BackgroundDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Virgo"
+            android:textColor="@color/textWhite"
+            android:textSize="22sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="(23 de Agosto a 22 de Septiembre)
+Elemento Tierra "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Prudente y razonable, posees en ocasiones un espíritu analítico, en ocasiones crítico, sobre ti mismo y sobre los que te rodean. Eres meticuloso y te gustan las cosas bien hechas, pero ¡ojo! bien hechas a tu manera, que es la única válida a tu modo de entender. Puedes llegar a obsesionarte por pequeños detalles que los demás apenas ven. Eres un poco egoísta contigo mismo ya posees una cualidad empática general y prefieres más dar que recibir."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Personalidad. "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Eres prudente, organizado, disciplinado y perfeccionista en exceso, te gusta que las cosas estén bien hechas, es decir, que estén hechas siguiendo tu criterio de exactitud. Tu constancia y tu perfeccionamiento continuo en ese sentido son dignos de alabar, si bien debes aprender a respetar las decisiones, las distintas maneras de actuar, de los demás teniendo en cuenta que cada uno puede tener sus propios criterios a la hora de encarar cualquier tema. Cuando las cosas no se desarrollan cómo tú crees que deberían hacerse, tiendes a mostrarte abiertamente crítico y minucioso en exceso."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Mente "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Eres consciente de cada paso que das, tu mente aguda y analítica reflexiona antes de emprender cualquier asunto, lo que minimiza tus posibilidades de fracaso. Sueles acertar en tus juicios, tu razón es buena consejera. Todo lo que hablas lo sacas de experiencias de la vida y jamás hablas sin fundamentos."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Amor"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Te gusta unirte sentimentalmente con la gente que quieres a largo plazo, no te van las relaciones superficiales y/o pasajeras, ni siquiera en el terreno laboral. En el matrimonio, eres conservador y a menudo frío en la demostración de tus sentimientos, un rasgo que no refleja con exactitud tus sentimientos interiores, que pueden ser muy cálidos a la hora de conocerlos. Esta aparente frialdad podría valerte algunos reproches por parte de tu entorno."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Trabajo y Dinero"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="En tu vida profesional, tu seriedad, tu control sobre ti mismo y tu sangre fría te ayudan a realizarlo todo según previsto por ti; Nada se te escapa, no dejas nada al azar, y en general tu buena organización y tu metodología impecable son muy valoradas por la gente que te rodea. Tu rigor y tu amor por las cosas bien hechas son tus mejores armas para prosperar laboralmente, lo que harás lentamente pero de forma segura. Esto debería repercutir favorablemente en tus finanzas, que te encargarás de multiplicar mediante gestiones acertadas y juiciosas."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

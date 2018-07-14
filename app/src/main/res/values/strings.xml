@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Horoscope</string>
+    <string name="horoscopo">Horoscopo</string>
+    <string name="introduzca_su_dia_de_nacimiento">Introduzca su Dia de nacimiento</string>
+    <string name="introduzca_su_mes_de_nacimiento">Introduzca su Mes de nacimiento</string>
+    <string name="horoscopo2">HOROSCOPO2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_aries_scrolling">AriesScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="Aries">Aries (21 de Marzo a 20 de Abril) Elemento Fuego Aries es el primer signo del zodíaco y simboliza el principio. Es activo, creativo, aventurero e impulsivo, con reacciones que pueden llegar a ser algo bruscas. Podríamos decir que tu lema es “atreverse ahora, arrepentirse después”. También suele mostrar impaciencia cuando las cosas no van con lo planeado, según él, deberían ir. Vive la vida a mil por hora. Pero siempre orgulloso de sus actos, mismo si son dañinos para los demás. Personalidad. Eres una persona valiente y comprometida con lo que haces. Crees en tus ideales y pones todos los recursos a tu alcance para lograrlos. Necesitas moverte constantemente, para ti la inercia y la pereza son muestras de debilidad y te hacen retroceder en las metas que te has planteado. Te abres a cada nueva experiencia y te lanzas a la aventura, para ti cada ocasión es una oportunidad por descubrir y conseguir. Te gusta la independencia, te gusta sentirte libre para actuar como quieres en cada momento. Tu energía y empeño suelen abrirte puertas a lo largo de tu vida, oportunidades que sabes aprovechar como pocos. Mente. Eres inteligente y, lo que puede resultar más interesante en relación con tu carácter, eres lúcido en tu forma de plantearte los nuevos retos a alcanzar, y te sirves de tu mente aguda para encararlos de la manera que te resulte más provechosa. A veces su superioridad mental hace caer en la arrogancia o egocentrismo, hay que trabajar bien la humildad ya que los Aries humildes son los que más metas cumplen tanto en lo económico como en lo personal. Amor. Te muestras igual de fogoso, impaciente e impulsivo en tus relaciones afectivas. Para ti, tiene que ser todo y ahora, en caso contrario la relación que te ofrecen no te convence. Para atraer a un Aries, hay que ser al menos tan intrépido, imaginativo y pasional como este signo o corres el riesgo de aburrirle y verle pasar a otra cosa. Sexualidad. Hombres Irrefrenables en el sexo. Son un poco egoístas con su pareja (no se preocupan demasiado por darles placer durante pero si antes). Les gusta la exploración del cuerpo de la mujer. Necesitan mujeres cómplices en materia sexual, siguiendo todas sus fantasías. Mujeres Son muy egoístas en materia de placer. Son muy determinadas y no dudan nunca (saben dónde, cuándo, cómo y con quien). Trabajo y dinero. No hace falta decirte que eres un líder nato y que, sea cual sea la profesión que desempeñes, pondrás en ella tanta pasión y compromiso que destacarás entre todos. Tu agilidad mental, tu agudeza y tu rapidez en la ejecución te llevan a saber controlar cualquier situación del mejor modo, lo que hace que a menudo la gente confíe en ti, e incluso se respalde, para resolver cualquier conflicto o situación de crisis en el trabajo. Sueles alcanzar, en la mitad de tu vida, un gran éxito, lo que conlleva cierta estabilidad monetaria que, aunque no sea éste tu objetivo principal pues antepones el brillo social y el reconocimiento a los aspectos económicos. Aunque en el fondo sepas que el segundo es resultado del primero. Sueles seguir avanzando y no mirar atrás tus logros, si tiendes a volver a vivir un pasado, cierra los ojos y continúa tu camino. Astrología. Marte, tu planeta Regente, y tu elemento fuego, se armonizan a la perfección para realzar todas las cualidades arriba indicadas. Eres volcánico, intrépido y guerrero, nada ni nadie te detiene en tu avance vital. No temes a los nuevos retos, te permiten demostrar de lo que eres capaz y de hasta donde puedes llegar. Y a pesar de tu carácter explosivo, sabes permanecer lúcido en cualquier situación, con un gran control sobre ti mismo y sobre lo que te rodea. Te llevas bien con los demás signos de fuego (Leo y Sagitario), pues os entendéis a la perfección, mientras que tus relaciones con el signo de Libra (elemento aire) son más bien tensas debido a vuestra contraposición de caracteres. ¿Qué Regalarle? Para él Aries es un signo que se muestra inclinado hacia los negocios. Los Aries son amantes de la velocidad, lo extremo, así que no lo dudes, si realmente quieres dejarle boquiabierto regálale un Ferrari. ¿No tienes el presupuesto?, tranquilo, con uno de juguete también puede servir. Precisamente porque le gusta la velocidad, seguro que practica deportes como el esquí o ciclismo. Puedes obsequiarle con piezas del equipo: unos guantes, un casco, lentes, etc…Si nada de lo anterior te ha convencido, te recuerdo que trata de uno de los signos más aventureros del Zodiaco, invítale a practicar deportes extremos, algo fuera de lo común, organízale una tarde en los karts o incluso llévatelo a hacer parapente. Le encantará acompañarte. Para ella La mujer Aries quedará encantada si le regalas un KIMONO y una invitación para un gimnasio donde pueda practicar kárate o judo, dos deportes que calzan a la perfección con su carácter intrépido. Puesto que Aries es un signo aventurero y tiene muchas energía que entregar. Pero no te confundas, cuando salga de sus clases se convertirá en una mujer muy femenina, a la que le gustará ponerse un sexy vestido rojo, como el color del elemento de su signo, o unos delicados pendientes de Cuarzo Rosa, que además es su piedra armonización y conexión. Un regalo fantástico para ella sería invitarla a hacer algo nuevo y aventurero, ahora eres tu quien tiene que sorprenderla con tu imaginación.</string>
+    <string name="select_date">Select Date</string>
+    <string name="fecha_de_nacimiento">Fecha de Nacimiento</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="passby">PassBy</string>
+    <string name="title_activity_taurus_scrolling">TaurusScrollingActivity</string>
+    <string name="title_activity_tauruss_scrolling">TaurussScrollingActivity</string>
+    <string name="title_activity_gemini_scrolling">GeminiScrollingActivity</string>
+    <string name="title_activity_pisces_scrolling">PiscesScrollingActivity</string>
+    <string name="title_activity_aquarius_scrolling">AquariusScrollingActivity</string>
+    <string name="title_activity_capricorn_scrolling">CapricornScrollingActivity</string>
+    <string name="title_activity_scorpio_scrolling">ScorpioScrollingActivity</string>
+    <string name="title_activity_sagittarius_scrolling">SagittariusScrollingActivity</string>
+    <string name="title_activity_libra_scrolling">LibraScrollingActivity</string>
+    <string name="title_activity_virgo_scrolling">VirgoScrollingActivity</string>
+    <string name="title_activity_leo_scrolling">LeoScrollingActivity</string>
+    <string name="title_activity_cancer_scrolling">CancerScrollingActivity</string>
+</resources>

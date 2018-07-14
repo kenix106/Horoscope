@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".TaurussScrollingActivity"
+    tools:showIn="@layout/activity_tauruss_scrolling"
+    android:background="@color/BackgroundDark"
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="@dimen/text_margin"
+           android:text="Tauro"
+           android:textColor="@color/textWhite"
+           android:textSize="22sp"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="@dimen/text_margin"
+           android:text="(21 de Abril a 20 de Mayo)
+Tierra"
+           android:textColor="@color/textWhite"
+           android:textSize="18sp"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="@dimen/text_margin"
+           android:text="Te gustan las cosas bonitas que te ofrece la naturaleza, pues en general eres una persona de gustos sencillos que ama y sabe apreciar la belleza en todas sus vertientes. Tú mismo irradias armonía y sensualidad. Eres realista, con los pies en el suelo. Eres naturalmente una persona persistente, que llega a cumplir todas tus metas, arrasas con todo, como un toro, para llegar donde quieres llegar. A razón a esto eres testarudo, mente cerrada y porfiado (a vista de los demás), porque no dejas que las demás personas te digan cómo hacer las cosas que tú ya sabes hacer. "
+           android:textColor="@color/textWhite"
+           android:textSize="14sp"
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="@dimen/text_margin"
+           android:text="Personalidad. "
+           android:textColor="@color/textWhite"
+           android:textSize="18sp"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="@dimen/text_margin"
+           android:text="Eres una persona estable y realista, con una tenacidad que a veces puede confundirse con testarudez. También te caracterizas por ser paciente y tolerante, te gusta tomarte las cosas con calma y no precipitarte en tus decisiones. Eres reflexivo, ponderado y lógico, además de ser buen consejero. Mides tus acciones con cautela y tu prudencia suele darte buenos resultados, aunque sea a largo plazo. Estudias todo, tanto los pros y contras, antes de tomar una decisión."
+           android:textColor="@color/textWhite"
+           android:textSize="14sp"
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="@dimen/text_margin"
+           android:text="Mente "
+           android:textColor="@color/textWhite"
+           android:textSize="18sp"
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="@dimen/text_margin"
+           android:text="Eres racional y, antes de emprender cualquier asunto, primero lo analizas con tranquilidad y evalúas las distintas posibilidades que se te ofrecen. No das ningún paso a la ligera, prefieres que tu mente, reflexiva y analítica,  guíe tus movimientos. No eres de esas personas que dejan llevar por la vida ni tampoco un líder, sino que más bien una persona que aprende de sus experiencias para evitar malos ratos."
+           android:textColor="@color/textWhite"
+           android:textSize="14sp"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="@dimen/text_margin"
+           android:text="Amor"
+           android:textColor="@color/textWhite"
+           android:textSize="18sp"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="@dimen/text_margin"
+           android:text="Los amores pasajeros no te dicen nada, quieres construir una relación duradera y estable con una persona con la que puedas contar y que sea capaz de entenderte y compartir tu modo de vida sosegado. Cuando te entregas, ya sea en tus amistades o con el ser amado, no das marcha atrás. Consideras que tu amor es un regalo que entregas para siempre, y harás lo posible para ser correspondido. Eres fiel y atento a tus sentimientos. Pero que no despierten al toro interior, porque puedes a llegar ver todo rojo."
+           android:textColor="@color/textWhite"
+           android:textSize="14sp"
+           tools:ignore="HardcodedText" />
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="@dimen/text_margin"
+           android:text="Trabajo y Dinero"
+           android:textColor="@color/textWhite"
+           android:textSize="18sp"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="@dimen/text_margin"
+           android:text="Tu buen juicio, tu eficacia, tu lógica y tu determinación son las bases con las que juegas en el terreno profesional. Te vales de tus cualidades, que saber aprovechar al máximo, para dar el mejor rendimiento posible a tus cometidos, lo que generalmente te da buenos resultados. Eres competitivo y ambicioso, no cesas en tu empeño de conseguir lo que pretendes, y con ello prosperas laboralmente y económicamente. El aspecto monetario resulta importante para ti pues te da seguridad"
+           android:textColor="@color/textWhite"
+           android:textSize="14sp"
+           tools:ignore="HardcodedText" />
+
+
+   </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

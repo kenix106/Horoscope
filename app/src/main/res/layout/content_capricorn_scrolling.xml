@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CapricornScrollingActivity"
+    tools:showIn="@layout/activity_capricorn_scrolling"
+    android:background="@color/BackgroundDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Capricornio"
+            android:textColor="@color/textWhite"
+            android:textSize="22sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="(22 de Diciembre a 20 de Enero)
+Elemento Tierra"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Con tu gran ambición, no podemos dejar de introducir las tendencias vitales de tu signo Capricornio sin mencionar en profundidad posees una enorme disciplina en el trabajo, aunque también en otros ámbitos de tu vida, estas en busca continua de una realización profesional y, por extensión, personal. Discreto y tranquilo, recorres el camino fijado en tu vida sin hacer notar tus intenciones, lo que te vuelve misterioso e imprevisible de cara a los demás."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Personalidad. "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="En tu vida te domina tu gran sentido de la responsabilidad, así como tu carácter reservado, llegando incluso en ocasiones a pensar que eres tímido. Eres persistente en tu empeño, eres paciente en la consecución de tus objetivos, no le temes al cansancio físico ni mental, por lo que recorrerás incansablemente, sin detenerte jamás, cualquier camino hasta llegar a tu objetivo. Generalmente, llegarás a tu meta sin la ayuda de nadie, solo, si bien, cuando lo necesitas, sabes con certeza a quién recurrir dependiendo de la situación. Algunos ven terquedad en tu obstinación por alcanzar tus sueños vitales. De vez en cuando, sentirás la necesidad imperiosa de alejarte del mundo, te aislarás con el fin de recobrar tu equilibrio interior antes de volver al mundo exterior."
+             android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Mente "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+           android:text="Dotado para los estudios, sueles desencantarte por aprender a una edad más bien tarde. Buscarás ampliar tus conocimientos en varios ámbitos a la vez. Tu sabiduría tiene mérito pues la cultivas a lo largo de tu vida de mil formas distintas, ya sea de forma autodidacta o académica. Tu mente privilegiada es producto de tu constancia. Si aún no has descubierto este regalo que viene de fábrica para los Capricornios, es por qué no estás buscando en el lugar correcto. Tienes esa facilidad de entender las estrategias, te fascina las nuevas experiencia, aprender cosas nuevas que jamás has intentado antes, un poco aventurero pero más estratega en tus decisiones."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Amor"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+           android:text="Y justamente, aunque para el exterior puedas parecer frío e indiferente, por dentro, cuando permites que alguien te conozca en profundidad, la persona que te descubra verá en ti a un ser leal y capaz de sentir mucha pasión. Aunque no demuestres en exceso tus emociones, eres atento y tierno, tus gestos saben hablar por sí mismos en cuanto a tus sentimientos. Cuando quieres con el corazón, proteges a tus seres queridos por encima de todo."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Trabajo y Dinero"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="En tu vida, otorgas mucha importancia a tu carrera, es para ti fuente de reconocimiento y éxito, aunque sea en la sombra. Te gusta la estabilidad económica y, cuando alcanzas un puesto de relevancia, sueles rodearte de lujo. Sea cual sea la profesión que desempeñes, pondrás todo tu empeño en prosperar, demostrando en todo momento seriedad, eficacia y autoridad moral."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

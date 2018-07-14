@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SagittariusScrollingActivity"
+android:background="@color/BackgroundDark"
+    tools:showIn="@layout/activity_sagittarius_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Sagitario"
+            android:textColor="@color/textWhite"
+            android:textSize="22sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="(23 de Noviembre a 21 de Diciembre)
+Elemento Fuego"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Te caracterizas por tu personalidad independiente, franca y amable, abierta a los demás, a los nuevos desafíos, pero también abierto a ti mismo y a indagar en tus expectativas personales. Eres idealista, generoso y sincero, no tienes miedo de tus palabras. Te gusta rodearte de sabiduría y conocimientos, tú mismo eres un sabio y un filósofo. Tu temperamento es propenso al buen humor y al optimismo. Eres un general dentro tu familia, un líder de naturaleza. Todo lo que haces viene de la cosecha de tus experiencias."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Personalidad. "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Como buen Sagitario, eres aventurero, expansivo, explorador, exuberante y alegre, con una confianza muy sincera en ti mismo y en las posibilidades que te ofrece la vida. Te encanta viajar, descubrir nuevas experiencias, conocer otros mundos que puedan aportarte una visión más certera desde un punto de vista global y solidario, filosófico y espiritual. Es una de las razones por la cual prefieres estar solo en tu avanzar vital y espiritual, seguirás siendo un gran independiente."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Mente "
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Dotado de una gran intuición, te sientes atraído por cualquier experiencia intelectual y, de hecho, te interesa explorar cualquier camino que pueda llevarte por los senderos del aprendizaje. Te sientes fascinado por la filosofía y la religión con medio para ampliar tus conocimientos. Eres mejor alumno que maestro, una verdadera esponja de conocimiento."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Amor"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Eres un amigo fiel, no agobias con tus afectos, sino que dejas que la gente que quieres se sienta libre en cualquier momento de unirse sentimentalmente a ti o no. Y tú esperas a cambio poder hacer lo mismo. Cuando te enojas, eres directo, sueles ser duro con tus palabras, aunque raramente envenenas tus argumentos, sino que expones los hechos, por muy desagradables o vergonzosos que puedan parecer, con total sinceridad. En general, eres apreciado y cuando quieres, lo haces con todo tu corazón. Tu elemento te entrega pasión en las cosas que haces."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Trabajo y Dinero"
+            android:textColor="@color/textWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Una de tus mejores cualidades en el trabajo es tu gran adaptabilidad. Difícilmente te rindes ante cualquier dificultad; en caso de problema o conflicto, sabrás encontrar la manera de sobreponerte, encontrando tal vez un nuevo camino igual de válido para llegar hasta la meta fijada. Sabes medir las dificultades y franquearlas de la forma que resulte más conveniente para ti. Eres un buen trabajador, enérgico y con recursos, por lo que no tienes problemas para llegar hasta donde tú te propongas."
+            android:textColor="@color/textWhite"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
